@@ -1,0 +1,79 @@
+== Changelog ==
+
+= 3.0.7 ==
+1. Fixed the option page styling issue in the responsive view.
+
+= 3.0.6 ==
+1. Added Colors and Typography.
+2. Added Excerpt and Full Content.
+3. Added Boxed and Wide Layout.
+4. Footer Credit not editable in the free version.
+5. Removed Google plus social icon.
+
+= 3.0.5 ==
+1. Fixed "ST:Social icons" and "ST:Classic Header info" widgets issues.
+
+= 3.0.4 ==
+1. Fixed escaping, prefix, and empty markup issues.
+
+= 3.0.3 ==
+1. Added the license of parent theme in readme.
+2. Escaped the pingback_url() and removed unnecessary code.
+
+= 3.0.2 ==
+1. Fixed the customizer console issue.
+2. Changed the screenshot image.
+
+= 3.0.1 ==
+1. Added "Requires at least", "Tested up to", "Requires PHP fields" in the style.css.
+
+= 3.0 ==
+1. Implement the Accessibility including skip to content and keyboard navigation.
+2. Changed the screenshot image.
+3. Corrected the admin notice.
+4. Fixed all the other issues.
+
+= 2.9.2.1 ==
+1. update Screenshot
+
+= 2.9.2 ==
+1. Added Menu breakpoint setting.
+
+= 2.9.1 ==
+1. Added the header logo layout setting (left logo, right logo).
+
+= 2.9 ==
+1. Fixed menu issue.
+
+= 2.8.9 ==
+1. Fixed escaping issues.
+
+= 2.8.8 ==
+1. Added recommended plugin tab.
+
+= 2.8.7 ==
+1. Update String.
+
+= 2.8.6 ==
+1. Update theme about page description.
+
+= 2.8.5 ==
+1. Added About Theme Detail Page.
+
+= 2.8.4 ==
+1. Fixed mobile responsive issue.
+
+= 2.8.3 ==
+1. Update Strings.
+
+= 2.8.2 ==
+1. Update Strings.
+
+= 2.8.1 ==
+1. Update Strings.
+
+= 2.8 ==
+1. Update Descritpion.
+
+= 2.7 ==
+1. Released
