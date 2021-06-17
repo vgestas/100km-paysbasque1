@@ -2229,3 +2229,16 @@ body .post .entry-content .more-link, .woocommerce-page a{text-decoration: none!
 .woocommerce form .form-row .input-checkbox {
 	margin-top:8px;
 }
+
+
+/**
+*   Personal css
+*/
+
+.fixed-position{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+  }
