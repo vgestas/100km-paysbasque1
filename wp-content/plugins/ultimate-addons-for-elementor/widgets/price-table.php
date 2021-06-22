@@ -379,7 +379,7 @@ class Elementor_uae_price_table extends \Elementor\Widget_Base {
 			[
 				'name' => 'feature_list_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .uae_pricing_table li',
 				'separator' => 'before',
 			]
@@ -409,7 +409,7 @@ class Elementor_uae_price_table extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .uae_pricing_table .price_title',
 				'separator' => 'before',
 			]
@@ -429,7 +429,7 @@ class Elementor_uae_price_table extends \Elementor\Widget_Base {
 			[
 				'name' => 'price_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .uae_pricing_table .amount, .uae_pricing_table .plan-price',
 				'separator' => 'before',
 			]
@@ -440,7 +440,7 @@ class Elementor_uae_price_table extends \Elementor\Widget_Base {
 			[
 				'name' => 'plan_typo',
 				'label' => __('Price Plan Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .uae_pricing_table .month',
 				'separator' => 'before',
 			]
@@ -451,7 +451,7 @@ class Elementor_uae_price_table extends \Elementor\Widget_Base {
 			[
 				'name' => 'btn_typo',
 				'label' => __('Button Text Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .uae_pricing_table .plan-select .price-btn',
 				'separator' => 'before',
 			]

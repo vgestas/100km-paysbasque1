@@ -234,7 +234,7 @@ $menu_breakpoint = esc_html(get_theme_mod('menu_breakpoint', 1100));
 
 @media (min-width: 1200px) {
 	.navbar-custom .container-fluid {
-		width: 1170px;
+		width: 100%;
 		padding-right: 15px;
 		padding-left: 15px;
 		margin-right: auto;

@@ -125,7 +125,7 @@ class Elementor_uae_timeline extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-timeline-title span',
 			]
 		);
@@ -178,7 +178,7 @@ class Elementor_uae_timeline extends \Elementor\Widget_Base {
 			[
 				'name' => 'titles_typography',
 				'label' => __('Title Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .cd-timeline-content h2',
 			]
 		);
@@ -188,7 +188,7 @@ class Elementor_uae_timeline extends \Elementor\Widget_Base {
 			[
 				'name' => 'date_typography',
 				'label' => __('Date Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .cd-timeline-content .cd-date',
 			]
 		);
@@ -198,7 +198,7 @@ class Elementor_uae_timeline extends \Elementor\Widget_Base {
 			[
 				'name' => 'content_typography',
 				'label' => __('Content Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .cd-timeline-content .cd-timeline-content-area *',
 			]
 		);

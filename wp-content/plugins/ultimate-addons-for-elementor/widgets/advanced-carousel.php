@@ -606,7 +606,7 @@ class Elementor_uae_advanced_carousel extends \Elementor\Widget_Base {
 			[
 				'name' => 'btn_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .tm-slider .ultimate_carousel_btn',
 			]
 		);

@@ -160,7 +160,7 @@ class Elementor_uae_info_list extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Title', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-info-list .media-body .mae_info_list_title',
 			]
 		);
@@ -170,7 +170,7 @@ class Elementor_uae_info_list extends \Elementor\Widget_Base {
 			[
 				'name' => 'desc_typography',
 				'label' => __('Description', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-info-list .media-body .content *',
 			]
 		);

@@ -327,7 +327,7 @@ class Elementor_uae_stat_counter extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .messive-wrapper-counter .mega_count_content h3',
 			]
 		);
@@ -403,7 +403,7 @@ class Elementor_uae_stat_counter extends \Elementor\Widget_Base {
 			[
 				'name' => 'stat_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .messive-wrapper-counter .mega_count_content .main-counter, .messive-wrapper-counter .mega_count_content .counter-after',
 			]
 		);

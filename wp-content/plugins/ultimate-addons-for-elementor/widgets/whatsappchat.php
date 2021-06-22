@@ -8,7 +8,7 @@ use \Elementor\Group_Control_Background;
 use \Elementor\Group_Control_Border;
 use \Elementor\Group_Control_Box_Shadow;
 use \Elementor\Group_Control_Typography;
-use \Elementor\Scheme_Typography;
+use \Elementor\Core\Schemes\Typography;
 use \Elementor\Widget_Base;
 use \Elementor\Utils;
 
@@ -295,7 +295,7 @@ class Elementor_uae_whatsapp_chat extends \Elementor\Widget_Base {
 			[
 				'name' => 'content_typography',
 				'label' => __('Button Text', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .uae_whatsapp_wrap .uae-whatsapp-link-1, {{WRAPPER}} .uae_whatsapp_wrap .wa_btn_tooltip_txt',
 			]
 		);

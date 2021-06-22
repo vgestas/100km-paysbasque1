@@ -168,7 +168,7 @@ class Elementor_uae_creative_link extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-creative-btn a',
 			]
 		);

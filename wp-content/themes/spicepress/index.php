@@ -10,47 +10,9 @@
  
 get_header();
 ?>
- <!-- Page Title Section -->
-		<section class="page-title-section">		
-			<div class="overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-						   <?php
-                        	$allowed_html = array(
-									'br'     => array(),
-									'em'     => array(),
-									'strong' => array(),
-									'i'      => array(
-										'class' => array(),
-									),
-									'span'   => array(),
-								);	
-                                                                if ( is_home() && ! is_front_page() ){
-                                                                    echo '<div class="page-title wow bounceInLeft animated" ata-wow-delay="0.4s"><h1>'.esc_html(get_the_title(get_option('page_for_posts'))).'</h1></div>';
-                                                                }else{
-                                                                    echo '<div class="page-title wow bounceInLeft animated" ata-wow-delay="0.4s"><h1>'.esc_html__('Home','spicepress').'</h1></div>';
-                                                                }
-							
-						   ?>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<?php
-								echo '<ul class="page-breadcrumb wow bounceInRight animated" ata-wow-delay="0.4s">';
-									$spicepress_homelink = home_url('/');
-								    echo '<li><a href="'.esc_url($spicepress_homelink).'">'.esc_html__('Home','spicepress').'</a></li>';
-								 echo '</ul>'
-							?>
-						</div>
-					</div>
-				</div>	
-			</div>
-		</section>
-		<div class="page-seperate"></div>
-		<!-- /Page Title Section -->
+<!-- /Page Title Section -->
  
- 
-<!-- Blog & Sidebar Section -->
+ <!-- Blog & Sidebar Section -->
 <div id="content">
 <section class="blog-section">
 	<div class="container">

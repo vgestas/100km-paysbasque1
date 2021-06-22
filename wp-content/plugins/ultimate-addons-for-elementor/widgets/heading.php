@@ -284,7 +284,7 @@ class Elementor_uae_headings extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-line-heading h3',
 			]
 		);

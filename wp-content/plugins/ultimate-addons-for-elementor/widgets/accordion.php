@@ -220,7 +220,7 @@ class Elementor_uae_accordion extends \Elementor\Widget_Base {
 			[
 				'name' => 'btn_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-accordion .ac-style',
 			]
 		);
@@ -276,7 +276,7 @@ class Elementor_uae_accordion extends \Elementor\Widget_Base {
 			[
 				'name' => 'btn_typography2',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .mega-accordion .mega-panel > *',
 			]
 		);

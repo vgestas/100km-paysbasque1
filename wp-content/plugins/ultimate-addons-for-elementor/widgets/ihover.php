@@ -358,7 +358,7 @@ class Elementor_ihover_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .ih-item .info h3',
 			]
 		);
@@ -387,7 +387,7 @@ class Elementor_ihover_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'desc_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .ih-item .info p',
 			]
 		);
@@ -406,7 +406,7 @@ class Elementor_ihover_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'border_typography',
 				'label' => __('Border', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .ih-item img',
 			]
 		);
@@ -416,7 +416,7 @@ class Elementor_ihover_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'shadow_typography',
 				'label' => __('Box Shadow', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .ih-item',
 			]
 		);

@@ -7,7 +7,7 @@ use \Elementor\Controls_Manager;
 use \Elementor\Group_Control_Border;
 use \Elementor\Group_Control_Box_Shadow;
 use \Elementor\Group_Control_Typography;
-use \Elementor\Scheme_Typography;
+use \Elementor\Core\Schemes\Typography;
 use \Elementor\Widget_Base;
 use \Elementor\Repeater;
 use \Elementor\Group_Control_Background;
@@ -381,7 +381,7 @@ class Elementor_uae_filter_gallery extends \Elementor\Widget_Base {
 			[
 				'name' => 'categ_menu_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .maw_portfolioGallery_container .maw_portfolioGallery_ul li.control',
 				'separator' => 'before',
 			]
@@ -540,7 +540,7 @@ class Elementor_uae_filter_gallery extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .maw_portfolioGallery_wrapper .info h3.filter_gal_title, 
 								{{WRAPPER}} .maw_portfolioGallery_wrapper .card_details h3.filter_gal_title',
 				'separator' => 'before',
@@ -575,7 +575,7 @@ class Elementor_uae_filter_gallery extends \Elementor\Widget_Base {
 			[
 				'name' => 'content_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .maw_portfolioGallery_container .info .filter_gal_content *',
 				'selector' => '{{WRAPPER}} .maw_portfolioGallery_container .card_details .filter_gal_content *',
 				'separator' => 'before',

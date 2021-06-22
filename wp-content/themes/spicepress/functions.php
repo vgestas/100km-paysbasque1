@@ -130,9 +130,8 @@ function spicepress_theme_setup() {
 	//Custom logo
 	
 	add_theme_support( 'custom-logo', array(
-		'height'      => 49,
-		'width'       => 210,
 		'flex-height' => true,
+		'flex-width' => true,
 		'header-text' => array( 'site-title', 'site-description' ),
 		
 	) );

@@ -123,7 +123,7 @@ class Elementor_uae_hightlight_box extends \Elementor\Widget_Base {
 			[
 				'name' => 'text_typography',
 				'label' => __('Typography', 'uae'),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .highlight_box .text *',
 			]
 		);
