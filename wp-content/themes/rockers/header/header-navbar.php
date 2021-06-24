@@ -14,55 +14,23 @@ if ($rockers_header_logo_placing_classic == 'right') {
 	<!--Header Contact Widget-->
 	<section class="header-widget-info sp-schemes">
 		<div class="container-fluid">
-			<div class="row">
-
-				<?php if ($rockers_header_logo_placing_classic == 'left' || $rockers_header_logo_placing_classic == 'center') { ?>
-
-					<div class="col-md-4 col-sm-5 col-xs-12">
-						<?php the_custom_logo(); ?>
+			<div class="row header-row">
+				<div class="col-md-3 col-sm-5 col-xs-12 custom-hearder-logo">
+					<div class="triangle-haut-gauche">
 					</div>
-					<div class="col-md-8 col-sm-5 col-xs-12">
-						<div class="site-branding-text">
-							<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-							<?php
-							$rockers_description = get_bloginfo('description', 'display');
-							if ($rockers_description || is_customize_preview()) : ?>
-								<p class="site-description"><?php echo $rockers_description; ?></p>
-							<?php endif; ?>
-						</div>
+					<?php the_custom_logo(); ?>
+				</div>
+				<div class="col-md-9 col-sm-5 col-xs-12 custom-hearder-titre">
+					<div class="site-branding-text">
+						<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+						<?php
+						$rockers_description = get_bloginfo('description', 'display');
+						if ($rockers_description || is_customize_preview()) : ?>
+							<p class="site-description"><?php echo $rockers_description; ?></p>
+						<?php endif; ?>
 					</div>
-
-					<!-- <div class="col-md-4 col-sm-7 col-xs-12">
-						<div class="row">
-							<?php if (is_active_sidebar('header_widget_area')) {
-								dynamic_sidebar('header_widget_area');
-							} ?>
-						</div>
-					</div> -->
-				<?php }
-				if ($rockers_header_logo_placing_classic == 'right') {  ?>
-					<div class="col-md-8 col-sm-7 col-xs-12">
-						<div class="row">
-							<?php if (is_active_sidebar('header_widget_area')) {
-								dynamic_sidebar('header_widget_area');
-							} ?>
-
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-5 col-xs-12 align-right">
-						<?php the_custom_logo(); ?>
-						<div class="site-branding-text align-right">
-							<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-							<?php
-							$rockers_description = get_bloginfo('description', 'display');
-							if ($rockers_description || is_customize_preview()) : ?>
-								<p class="site-description"><?php echo $rockers_description; ?></p>
-							<?php endif; ?>
-						</div>
-					</div>
-
-				<?php } ?>
-
+					<div class="triangle-bas-droit"></div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -93,47 +61,25 @@ if ($rockers_header_logo_placing_classic == 'right') {
 	<!--Logo & Menu Section-->
 	<nav class="navbar-classic navbar navbar-custom" role="navigation">
 		<div class="container-fluid p-l-r-0">
-			<?php if ($rockers_header_logo_placing_classic == 'left' || $rockers_header_logo_placing_classic == 'center') { ?>
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<?php the_custom_logo(); ?>
-					<div class="site-branding-text">
-						<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-						<?php
-						$rockers_description = get_bloginfo('description', 'display');
-						if ($rockers_description || is_customize_preview()) : ?>
-							<p class="site-description"><?php echo $rockers_description; ?></p>
-						<?php endif; ?>
-					</div>
-					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only"><?php echo esc_html__('Toggle navigation', 'rockers'); ?></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<?php the_custom_logo(); ?>
+				<div class="site-branding-text">
+					<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+					<?php
+					$rockers_description = get_bloginfo('description', 'display');
+					if ($rockers_description || is_customize_preview()) : ?>
+						<p class="site-description"><?php echo $rockers_description; ?></p>
+					<?php endif; ?>
 				</div>
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
+					<span class="sr-only"><?php echo esc_html__('Toggle navigation', 'rockers'); ?></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 
-			<?php }
-			if ($rockers_header_logo_placing_classic == 'right') { ?>
-
-				<div class="navbar-header align-right">
-					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-						<span class="sr-only"><?php echo esc_html__('Toggle navigation', 'rockers'); ?></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<?php the_custom_logo(); ?>
-					<div class="site-branding-text align-right">
-						<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-						<?php
-						$rockers_description = get_bloginfo('description', 'display');
-						if ($rockers_description || is_customize_preview()) : ?>
-							<p class="site-description"><?php echo $rockers_description; ?></p>
-						<?php endif; ?>
-					</div>
-				</div>
-			<?php } ?>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="custom-collapse">
 				<?php wp_nav_menu(array(

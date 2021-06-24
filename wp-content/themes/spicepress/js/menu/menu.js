@@ -7,7 +7,7 @@
 
         jQuery(window).scroll(function (e) {
             const $menu = jQuery("nav.navbar-classic.navbar.navbar-custom")
-            if (jQuery(this).scrollTop() > 469) {
+            if (window.matchMedia("(min-width: 1100px)").matches && jQuery(this).scrollTop() > 469) {
                 $menu.addClass("fixed-position");
             } else {
                 $menu.removeClass("fixed-position");

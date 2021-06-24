@@ -404,7 +404,7 @@ function spicepress_custom_menu_breakpoint()
 		.site-branding-text {
 			float: left;
 			margin: 0;
-			padding: 13px 50px 13px 0;
+			padding: 13px 50px;
 		}
 
 		.site-title {
@@ -430,7 +430,7 @@ function spicepress_custom_menu_breakpoint()
 			position: relative;
 			color: #1b1b1b;
 			font-weight: 600;
-			font-size: 0.875rem;
+			font-size: 1.25rem;
 			padding: 35px 17px;
 			transition: all 0.3s ease-in-out 0s;
 		}
@@ -444,7 +444,7 @@ function spicepress_custom_menu_breakpoint()
 			border-radius: 0;
 			padding: 0;
 			min-width: 200px;
-			background-color: #21202e;
+			background-color: #009543;
 			box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
 			position: static;
 			float: none;
@@ -461,7 +461,7 @@ function spicepress_custom_menu_breakpoint()
 			color: #d5d5d5;
 			border-bottom: 1px dotted #363544;
 			font-weight: 600;
-			font-size: 0.875rem;
+			font-size: 1rem;
 			padding: 12px 15px;
 			transition: all 0.2s ease-in-out 0s;
 			letter-spacing: 0.7px;
@@ -476,7 +476,7 @@ function spicepress_custom_menu_breakpoint()
 		.navbar-custom .dropdown-menu>li>a:hover,
 		.navbar-custom .dropdown-menu>li>a:focus {
 			color: #ffffff;
-			background-color: #282737;
+			background-color: #009543;
 		}
 
 		.navbar-custom .dropdown-menu .dropdown-menu {
@@ -593,8 +593,8 @@ function spicepress_custom_menu_breakpoint()
 			}
 
 			.navbar-custom .dropdown-menu {
-				border-top: 2px solid #ce1b28 !important;
-				border-bottom: 2px solid #ce1b28 !important;
+				border-top: 2px solid #fff !important;
+				border-bottom: 2px solid #fff !important;
 				position: absolute !important;
 				display: block;
 				visibility: hidden;
@@ -611,7 +611,7 @@ function spicepress_custom_menu_breakpoint()
 			}
 
 			.navbar-custom .open .dropdown-menu {
-				background-color: #21202e !important;
+				background-color: #009543 !important;
 			}
 
 			.navbar-custom .dropdown-menu>li>a i {
@@ -666,7 +666,7 @@ function spicepress_custom_menu_breakpoint()
 
 			.navbar-custom .dropdown-menu>li>a:hover,
 			.navbar-custom .dropdown-menu>li>a:focus {
-				background-color: #21202F;
+				background-color: #009543;
 				color: #fff;
 				padding: 12px 0px 12px 0px;
 			}
@@ -730,7 +730,7 @@ function spicepress_custom_menu_breakpoint()
 			}
 
 			.navbar-custom .navbar-nav {
-				background-color: #21202e;
+				background-color: #009543;
 				float: none !important;
 				margin: 0px
 			}
@@ -984,7 +984,7 @@ function spicepress_custom_menu_breakpoint()
 			left: 0;
 			right: 0;
 			z-index: 999;
-			background: #21202e;
+			background: #009543;
 			transition: all 0.3s ease;
 			min-height: 70px;
 			box-shadow: 0 2px 3px rgba(0, 0, 0, .1)
@@ -1050,7 +1050,7 @@ function spicepress_custom_menu_breakpoint()
 			/*Navbar Overlapped*/
 			.navbar-overlapped {
 				position: relative;
-				background-color: #21202e;
+				background-color: #009543;
 				border-bottom: 1px solid #4c4a5f;
 			}
 
@@ -1086,7 +1086,7 @@ function spicepress_custom_menu_breakpoint()
 
 		.navbar-classic {
 			z-index: 20;
-			background-color: #21202e;
+			background-color: #009543;
 		}
 
 		.navbar-classic {
@@ -1103,7 +1103,7 @@ function spicepress_custom_menu_breakpoint()
 		}
 
 		.navbar-classic .navbar-collapse {
-			border-top: 1px solid #434158;
+			border-top: 1px solid #009543;
 			width: 100%;
 			padding: 0 10%;
 		}

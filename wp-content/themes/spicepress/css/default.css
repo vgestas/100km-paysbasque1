@@ -27,8 +27,8 @@
     background-color: #ce1b28;
 }
 .navbar-custom .dropdown-menu {
-    border-top: 2px solid #ce1b28;
-    border-bottom: 2px solid #ce1b28;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 .navbar-custom .navbar-nav .open .dropdown-menu > .active > a, 
 .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover, 
@@ -41,8 +41,8 @@
 /*Dropdown Menus & Submenus Css----------------------------------------------------------*/
 
 .navbar-custom .dropdown-menu {
-    border-top: 2px solid #ce1b28;
-    border-bottom: 2px solid #ce1b28;   
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;   
 }
 
 /*===================================================================================*/
@@ -289,7 +289,7 @@ p > mark, p > ins { background-color: #ce1b28; }
     border: 1px solid #e9e9e9;
 }
 .price_label { color: #727272; }
-.woocommerce a.added_to_cart { background: #21202e; border: 1px solid #ffffff; }
+.woocommerce a.added_to_cart { background: #009543; border: 1px solid #ffffff; }
 .woocommerce a.button { border-radius: 0px; box-shadow: none; }
 .woocommerce #reviews #comments ol.commentlist li .comment-text { border: 1px solid #e4e1e3; }
 .woocommerce #reviews #comments ol.commentlist li .meta time { color: #8f969c; }

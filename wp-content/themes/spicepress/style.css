@@ -632,7 +632,7 @@ color: #9f9f9f;
 .blog-author-social { margin: 20px 0 0; padding: 0; }
 .blog-author-social li {
 	background-color: #ffffff;
-	border: 1px solid #21202e;
+	border: 1px solid #009543;
 	cursor: pointer;
 	display: inline-block;
 	-webkit-border-radius: 2px;
@@ -719,7 +719,7 @@ color: #9f9f9f;
 
 .sidebar { margin-bottom: 0px; margin-left: 0; padding: 0px; }
 .sidebar .widget { background-color: #ffffff; border: 1px solid #e9e9e9; margin: 0 0 40px; overflow: hidden; padding: 0; }
-.sidebar .section-header { background-color: #21202e; width: 100%; margin-bottom: 0px; margin-top: 0px; padding: 16px 20px; display: block; text-align: left; }
+.sidebar .section-header { background-color: #009543; width: 100%; margin-bottom: 0px; margin-top: 0px; padding: 16px 20px; display: block; text-align: left; }
 .sidebar .section-header .widget-title { color: #ffffff; font-size: 1.250rem; margin: 0; padding-bottom: 0px; word-wrap: break-word; }
 .sidebar-menu-box { display: block; }
 .sidebar .section-header .widget-title .rsswidget,
@@ -851,7 +851,7 @@ form.search-form span.screen-reader-text {
 form.search-form input.search-field {
 	margin: 0 0 20px;
 }
-input[type="reset"] { background-color: #21202e; }
+input[type="reset"] { background-color: #009543; }
 form.search-form input.search-submit,
 input[type="submit"], input[type="reset"],
 .woocommerce-product-search input[type="submit"], .home-blog-btn {
@@ -991,7 +991,7 @@ input[type="radio"], input[type="checkbox"] { margin: 0.625rem 0.5rem 0 0; }
 .footer-sidebar .widget .post .entry-content p, .header-sidebar .widget .post .entry-content p { color: #9595a0; }
 .footer-sidebar .widget .post a.post-thumbnail img, .header-sidebar .widget .post a.post-thumbnail img {
 	border-radius: 0px;
-	border: 4px solid #21202e;
+	border: 4px solid #009543;
 	-moz-box-shadow: 0px 0px 2px #ffffff;
 	-webkit-box-shadow: 0px 0px 2px #ffffff;
 	box-shadow: 0px 0px 2px #ffffff;
@@ -1053,7 +1053,7 @@ input[type="radio"], input[type="checkbox"] { margin: 0.625rem 0.5rem 0 0; }
 .header-sidebar .sm-cont-widget address, .header-sidebar .sm-cont-widget address > a { color: #fff; }
 .footer-sidebar .sm-cont-widget address, .footer-sidebar .sm-cont-widget address > a { color: #9595a0; }
 .header-sidebar .custom-social-icons li, .footer-sidebar .custom-social-icons li {
-    border: 1px solid #21202e;
+    border: 1px solid #009543;
 }
 
 .txt-white { color: #fff; }
